@@ -1,0 +1,39 @@
+label {
+    padding: 30px;
+    font-size: 100%;
+}
+
+input[type=text],
+[type=number],
+select,
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90%;
+    height: 50px;
+    margin-left: 40px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px, 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+    float: left;
+    width: 130px;
+}
+
+input {
+    display: block;
+    float: center;
+}

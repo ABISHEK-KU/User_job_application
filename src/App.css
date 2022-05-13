@@ -1,0 +1,38 @@
+.navbarul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbarli {
+  float: left;
+  font-size: large;
+}
+
+.navbarLink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbarLink:hover:not(.active) {
+  background-color: #111;
+}
+
+.form {
+  width: 800px;
+  height: 710px;
+  border-radius: 40px;
+  margin: auto;
+  box-shadow: 20px #a78d8d30;
+  background-color: rgb(224, 221, 221);
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(142, 130, 255);
+}
